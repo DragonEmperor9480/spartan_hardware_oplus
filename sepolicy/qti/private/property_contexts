@@ -31,7 +31,7 @@ persist.sys.debuglog.config         u:object_r:exported_system_prop:s0
 persist.sys.log.ae                  u:object_r:exported_system_prop:s0
 persist.sys.log.af                  u:object_r:exported_system_prop:s0
 persist.sys.log.awb                 u:object_r:exported_system_prop:s0
-persist.sys.log.offline                   u:object_r:exported_system_prop:s0
+persist.sys.log.offline             u:object_r:exported_system_prop:s0
 
 
 # Modem
@@ -39,6 +39,10 @@ persist.sys.enable_modem_dump    u:object_r:exported_system_prop:s0
 
 # Performance
 sys.oplus.high.performance    u:object_r:exported_system_prop:s0
+
+#oppo
+ro.oppo.version               u:object_r:exported_default_prop:s0
+
 
 # Radio
 ro.build.display.full_id    u:object_r:exported_system_prop:s0
